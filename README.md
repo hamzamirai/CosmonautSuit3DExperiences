@@ -1,3 +1,3 @@
-# Cosmonaut Suit 3 DExperiences
+# Cosmonaut Suit 3D Experiences
 
 ![](./Screenshots/home.png)
