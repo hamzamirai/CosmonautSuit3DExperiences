@@ -12,6 +12,7 @@
 		DEA45D332BDB0C57001D5960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA45D322BDB0C57001D5960 /* ContentView.swift */; };
 		DEA45D352BDB0C58001D5960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA45D342BDB0C58001D5960 /* Assets.xcassets */; };
 		DEA45D382BDB0C58001D5960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA45D372BDB0C58001D5960 /* Preview Assets.xcassets */; };
+		DEA45D422BDB1039001D5960 /* AstraunoutExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA45D412BDB1039001D5960 /* AstraunoutExperience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		DEA45D342BDB0C58001D5960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA45D372BDB0C58001D5960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEA45D392BDB0C58001D5960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA45D3F2BDB0F31001D5960 /* CosmonautSuit.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit.reality; sourceTree = "<group>"; };
+		DEA45D412BDB1039001D5960 /* AstraunoutExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstraunoutExperience.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +59,9 @@
 		DEA45D2B2BDB0C57001D5960 /* CosmonautSuit3DExperiences */ = {
 			isa = PBXGroup;
 			children = (
+				DEA45D3F2BDB0F31001D5960 /* CosmonautSuit.reality */,
+				DEA45D402BDB101D001D5960 /* Views */,
 				DEA45D302BDB0C57001D5960 /* CosmonautSuit3DExperiencesApp.swift */,
-				DEA45D322BDB0C57001D5960 /* ContentView.swift */,
 				DEA45D342BDB0C58001D5960 /* Assets.xcassets */,
 				DEA45D392BDB0C58001D5960 /* Info.plist */,
 				DEA45D362BDB0C58001D5960 /* Preview Content */,
@@ -79,6 +83,15 @@
 				DEA45D372BDB0C58001D5960 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEA45D402BDB101D001D5960 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEA45D412BDB1039001D5960 /* AstraunoutExperience.swift */,
+				DEA45D322BDB0C57001D5960 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA45D422BDB1039001D5960 /* AstraunoutExperience.swift in Sources */,
 				DEA45D332BDB0C57001D5960 /* ContentView.swift in Sources */,
 				DEA45D312BDB0C57001D5960 /* CosmonautSuit3DExperiencesApp.swift in Sources */,
 			);
