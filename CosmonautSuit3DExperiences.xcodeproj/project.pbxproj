@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE19EB8E2C0258570080836F /* CosmonautSuit.reality in Resources */ = {isa = PBXBuildFile; fileRef = DEA45D3F2BDB0F31001D5960 /* CosmonautSuit.reality */; };
 		DEA45D2F2BDB0C57001D5960 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DEA45D2E2BDB0C57001D5960 /* RealityKitContent */; };
 		DEA45D312BDB0C57001D5960 /* CosmonautSuit3DExperiencesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA45D302BDB0C57001D5960 /* CosmonautSuit3DExperiencesApp.swift */; };
 		DEA45D332BDB0C57001D5960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA45D322BDB0C57001D5960 /* ContentView.swift */; };
@@ -42,6 +43,7 @@
 		DEA45D202BDB0C56001D5960 = {
 			isa = PBXGroup;
 			children = (
+				DEA45D3F2BDB0F31001D5960 /* CosmonautSuit.reality */,
 				DEA45D2B2BDB0C57001D5960 /* CosmonautSuit3DExperiences */,
 				DEA45D2C2BDB0C57001D5960 /* Packages */,
 				DEA45D2A2BDB0C57001D5960 /* Products */,
@@ -59,7 +61,6 @@
 		DEA45D2B2BDB0C57001D5960 /* CosmonautSuit3DExperiences */ = {
 			isa = PBXGroup;
 			children = (
-				DEA45D3F2BDB0F31001D5960 /* CosmonautSuit.reality */,
 				DEA45D402BDB101D001D5960 /* Views */,
 				DEA45D302BDB0C57001D5960 /* CosmonautSuit3DExperiencesApp.swift */,
 				DEA45D342BDB0C58001D5960 /* Assets.xcassets */,
@@ -156,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA45D382BDB0C58001D5960 /* Preview Assets.xcassets in Resources */,
+				DE19EB8E2C0258570080836F /* CosmonautSuit.reality in Resources */,
 				DEA45D352BDB0C58001D5960 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +320,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -344,6 +347,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
